@@ -104,3 +104,7 @@ En `config/gensauto.json` (cierra el juego antes de editarlo):
 ```
 
 Necesita JDK 21. La prueba automática dentro del juego se ejecuta con `./gradlew -Pqa runQa`. Es opcional y ese código no se incluye en el jar.
+
+## Licencia
+
+[MIT](LICENSE)
