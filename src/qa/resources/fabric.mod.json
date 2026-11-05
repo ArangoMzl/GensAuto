@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "gensauto_qa",
+  "version": "1.0.0",
+  "name": "GensAuto development QA",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.gensauto.qa.QaClient"] },
+  "mixins": ["gensauto-qa.mixins.json"],
+  "depends": { "gensauto": "*" }
+}

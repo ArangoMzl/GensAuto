@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.gensauto.qa.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["QaFocusMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "gensauto",
+  "version": "${version}",
+  "name": "GensAuto",
+  "description": "HUD del nivel y prestigio de tu pico y azada en Gens, más minado y cosecha automáticos.",
+  "authors": ["ArangoMzl"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.gensauto.GensAutoClient"] },
+  "mixins": ["gensauto.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.6+1.21.11"
+  }
+}
